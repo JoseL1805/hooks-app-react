@@ -1,20 +1,23 @@
 import React from 'react'
-import { CounterApp } from './01-useState/CounterApp'
-import { SimpleForm } from './02-useEffect/SimpleForm'
-import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook'
-import { FormWithCustomHook } from './02-useEffect/FormWithCustomHook'
-import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks'
+// import { CounterApp } from './01-useState/CounterApp'
+// import { SimpleForm } from './02-useEffect/SimpleForm'
+// import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook'
+// import { FormWithCustomHook } from './02-useEffect/FormWithCustomHook'
+// import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks'
+import { FocusScreen } from './04-useRef/FocusScreen'
 
 export const HooksApp = () => {
   return (
     <>
     
         <div className='col-12 text-center'>
-            <CounterApp/>
+            {/* <CounterApp/>
             <CounterWithCustomHook/>
             <SimpleForm/>
             <FormWithCustomHook/>
-            <MultipleCustomHooks/>
+            <MultipleCustomHooks/> */}
+
+            <FocusScreen/>
         </div>
     </> 
   )

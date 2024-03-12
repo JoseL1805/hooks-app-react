@@ -8,6 +8,8 @@ import React from 'react'
 // import { Layout } from './05-useLayoutEffect/Layout'
 // import {Memorize} from './06-memos/Memorize'
 import {MemoHook} from './06-memos/MemoHook'
+import { CallBackHook } from './06-memos/CallBackHook'
+import { Padre } from './07-tarea-memo/Padre'
 
 export const HooksApp = () => {
     return (
@@ -21,9 +23,14 @@ export const HooksApp = () => {
                 <MultipleCustomHooks/> 
                 <FocusScreen/>
                 <Layout/>
-                <Memorize/>
+                <Memorize/>+
+                <MemoHook/> 
+                <CallBackHook/>
                 */}
-                <MemoHook/>
+                
+               
+                <Padre/>
+
             </div>
         </> 
     )

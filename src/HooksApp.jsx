@@ -10,6 +10,7 @@ import React from 'react'
 import {MemoHook} from './06-memos/MemoHook'
 import { CallBackHook } from './06-memos/CallBackHook'
 import { Padre } from './07-tarea-memo/Padre'
+import { TodoApp } from './08-useRecucer/TodoApp'
 
 export const HooksApp = () => {
     return (
@@ -26,10 +27,11 @@ export const HooksApp = () => {
                 <Memorize/>+
                 <MemoHook/> 
                 <CallBackHook/>
+                <Padre/>
                 */}
                 
                
-                <Padre/>
+                <TodoApp/>
 
             </div>
         </> 
